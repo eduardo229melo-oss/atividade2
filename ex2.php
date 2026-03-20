@@ -18,10 +18,10 @@
         $n = $_POST["n"];
 
         // resolver aqui
-        echo ("<h3> numeros de 1 ate N</h3>");
-        $i = 1;
+        echo ("<h3> numeros maiores que 5 ate N</h3>");
+        $i = 5;
 
-        while ($i <= $n) {
+        while ($i >$n) {
             echo ($i);
             $i++;
         }
